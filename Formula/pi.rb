@@ -6,23 +6,23 @@ class Pi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.9/pi-v0.12.9-aarch64-apple-darwin.tar.gz"
-      sha256 "e57bab6a88b6d4cd655d60bbf3a756f2d72b2264dd9676b03058b02f7f38e3e2"
+      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.10/pi-v0.12.10-aarch64-apple-darwin.tar.gz"
+      sha256 "3c5fc03336ffd6237e31124eb10cc831cb56bb8b77bc2cdfd9b7bb284d220da9"
     end
     on_intel do
-      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.9/pi-v0.12.9-x86_64-apple-darwin.tar.gz"
-      sha256 "3d8c4d620a3de271ea6a5ae27e30cadddb5aab1f9903ba0779365bf2237e7034"
+      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.10/pi-v0.12.10-x86_64-apple-darwin.tar.gz"
+      sha256 "b34c603ee4332ab56aca2b7764d9ac3c2b38d1cc2617ace614e52fbd9d67971e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.9/pi-v0.12.9-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4bec068d46faf0e18548e9c2d2e06337951b712be9d582c5429c68adf038cbd0"
+      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.10/pi-v0.12.10-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "c0c038585750dd4c2a69d2d04d954a703cedac45195f31d5159c42b5c3dd096b"
     end
     on_intel do
-      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.9/pi-v0.12.9-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e2c971a53f2519912ef8701b38447362d34b874c70ef27e7dd10426a0ebe0c95"
+      url "https://github.com/yannelli/pi-rust/releases/download/v0.12.10/pi-v0.12.10-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1d043d53da471cc0f1a9c70d6726718b70aa691264b63ffd924e6f2a7343b405"
     end
   end
 
